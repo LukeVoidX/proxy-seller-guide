@@ -38,6 +38,12 @@ for (const term of ['静态住宅IP', 'ISP代理', '住宅代理', 'LUKE25', 'LU
   if (!readme.includes(term)) failures.push(`README.md: missing required term ${term}`);
 }
 
+const englishReadme = await readFile(resolve(root, 'README.en.md'), 'utf8');
+const normalizedEnglishReadme = englishReadme.toLowerCase();
+for (const term of ['static residential IP', 'ISP proxy', 'residential proxy', 'LUKE25', 'LUKEFANS']) {
+  if (!normalizedEnglishReadme.includes(term.toLowerCase())) failures.push(`README.en.md: missing required term ${term}`);
+}
+
 if (failures.length) {
   console.error(failures.join('\n'));
   process.exit(1);

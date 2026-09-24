@@ -1,6 +1,6 @@
 # Proxy-Seller静态住宅IP、ISP代理与优惠码指南（2026）
 
-[English guide](#english-summary) · [完整简体中文网页](https://lukevoidx.github.io/proxy-seller-guide/zh/) · [Full English page](https://lukevoidx.github.io/proxy-seller-guide/)
+[English README](README.en.md) · [完整简体中文网页](https://lukevoidx.github.io/proxy-seller-guide/zh/) · [Full English page](https://lukevoidx.github.io/proxy-seller-guide/)
 
 这是一份非官方、基于可核验证据的Proxy-Seller选购指南，重点解释以下关键词与产品之间的区别：
 
@@ -65,13 +65,4 @@
 - [Proxy-Seller官方API文档](https://docs.proxy-seller.com/)
 - [LukeVoidX优惠码页面](https://lukevoidx.com/zh/deals/proxy-seller)
 
----
-
-## English summary
-
-This unofficial guide explains Proxy-Seller **static residential IPs / ISP proxies**, rotating residential proxies, IPv4, IPv6 and mobile proxies.
-
-- `LUKE25`: 25% off all products, valid September 24–October 8, 2026.
-- `LUKEFANS`: permanent 20% off all products, with no expiration date.
-
-Both codes were verified on a merchant checkout sample before payment. See the [full English guide](https://lukevoidx.github.io/proxy-seller-guide/) for product selection, evidence, limitations and affiliate disclosure.
+完整英文说明见 [README.en.md](README.en.md)。
