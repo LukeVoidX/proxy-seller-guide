@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lukevoidx.github.io/proxy-seller-guide/sitemap.xml
