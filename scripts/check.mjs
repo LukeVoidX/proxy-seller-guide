@@ -9,6 +9,10 @@ const pages = [
 
 const failures = [];
 
+await access(resolve(root, '35a59773bb11fe044a44281181e6778a.txt')).catch(() => {
+  failures.push('missing IndexNow verification key');
+});
+
 for (const page of pages) {
   const html = await readFile(resolve(root, page.path), 'utf8');
   for (const term of page.terms) {
